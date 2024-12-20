@@ -32,9 +32,9 @@ class RobotArm():
             [0, 0.15, 0, pi/2],    # Joint 1: Base rotation
             [0, 0, 0.25, 0],       # Joint 2: Shoulder
             [pi/2, 0, 0, pi/2],    # Joint 3: Elbow
-            [pi, 0.25, 0, pi/2],   # Joint 4: Wrist 1
-            [pi/2, 0.0, 0, pi/2],  # Joint 5: Wrist 2
-            [0, 0.08, 0, 0]        # Joint 6: Wrist 3
+            [pi, 0.15, 0, pi/2],   # Joint 4: Wrist 1
+            [-pi/2, 0.0, 0, pi/2],  # Joint 5: Wrist 2
+            [0, 0.3, 0, 0]        # Joint 6: Wrist 3
         ]
 
         # Define joint angle limits in degrees

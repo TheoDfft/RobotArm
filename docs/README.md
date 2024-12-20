@@ -17,7 +17,21 @@ This Python script implements a 6-DOF robotic arm with forward/inverse kinematic
 ```
 
 
-## GUI Usage
+##Usage
+Use Python to run the program:
+```bash
+  python3 python_robot_arm.py
+```
+
+You'll be prompted to enter the desired end effector state values in meters and degrees separated by spaces:
+```bash
+----------------------- Inverse Kinematic Solver -----------------------
+Enter the desired end effector state (meters/degrees values separated by spaces: 'x y z alpha beta gamma'):
+0.2 0.2 0.4 90 0 45
+```
+If the entered desired state is valid the calculated robot configuration will be displayed in the figure.
+
+At any point you are able manually set joint variables through the GUI:
 - Use the textboxes or the sliders to set the desired joint variables (in degrees)
 - Click the reset button to bring back the robot to its home configuration
 - Click Draw Workspace to see a simulation of the robot workspace
@@ -25,7 +39,7 @@ This Python script implements a 6-DOF robotic arm with forward/inverse kinematic
 ![GUI_screenshot](GUI_screenshot.png "GUI Usage")
 
 
-## Class Usage
+##Class Usage
 
 ```python
 from python_robot_arm import RobotArm

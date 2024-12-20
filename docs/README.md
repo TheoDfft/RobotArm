@@ -6,10 +6,10 @@ This Python script implements a 6-DOF robotic arm with forward/inverse kinematic
 
 ## Requirements
 
-- **Download the required dependencies:**
-  * [NumPy](https://numpy.org/install/)
-  * [Matplotlib](https://matplotlib.org/stable/users/installing.html)
-  * [Robotics Toolbox (RTB)](https://petercorke.com/toolboxes/robotics-toolbox/)
+Download the required dependencies:**
+- [NumPy](https://numpy.org/install/)
+- [Matplotlib](https://matplotlib.org/stable/users/installing.html)
+- [Robotics Toolbox (RTB)](https://petercorke.com/toolboxes/robotics-toolbox/)
 
 
 ```bash
@@ -17,7 +17,7 @@ This Python script implements a 6-DOF robotic arm with forward/inverse kinematic
 ```
 
 
-##Usage
+## Usage
 Use Python to run the program:
 ```bash
   python3 python_robot_arm.py
@@ -39,7 +39,7 @@ At any point you are able to manually set joint variables through the GUI:
 ![GUI_screenshot](GUI_screenshot.png "GUI Usage")
 
 
-##Class Usage
+## Class Usage
 
 ```python
 from python_robot_arm import RobotArm

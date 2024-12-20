@@ -13,14 +13,14 @@ Download the required dependencies:**
 
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
 ## Usage
 Use Python to run the program:
 ```bash
-  python3 python_robot_arm.py
+python3 python_robot_arm.py
 ```
 
 You'll be prompted to enter the desired end effector state values in meters and degrees separated by spaces:

@@ -22,7 +22,7 @@ This Python script implements a 6-DOF robotic arm with forward/inverse kinematic
 - Click the reset button to bring back the robot to its home configuration
 - Click Draw Workspace to see a simulation of the robot workspace
 
-![GUI_screenshot](docs/GUI_screenshot.png "GUI Usage")
+![GUI_screenshot](GUI_screenshot.png "GUI Usage")
 
 
 ## Class Usage
@@ -53,6 +53,6 @@ robot.set_joint_variables(joint_variables)
 
 Companion derivations to understand the inverse kinematic algorithm
 
-[Inverse Kinematic derivations](docs/6dof_IK_derivations.pdf)
+[Inverse Kinematic derivations](6dof_IK_derivations.pdf)
 
 

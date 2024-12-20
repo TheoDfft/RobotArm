@@ -51,5 +51,7 @@ robot.set_joint_variables(joint_variables)
 
 ## Documentation
 
+Companion derivations to understand the inverse kinematic algorithm
+
 [Inverse Kinematic derivations](6dof_IK_derivations.pdf)
 

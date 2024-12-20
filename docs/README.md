@@ -31,7 +31,7 @@ Enter the desired end effector state (meters/degrees values separated by spaces:
 ```
 If the entered desired state is valid the calculated robot configuration will be displayed in the figure.
 
-At any point you are able manually set joint variables through the GUI:
+At any point you are able to manually set joint variables through the GUI:
 - Use the textboxes or the sliders to set the desired joint variables (in degrees)
 - Click the reset button to bring back the robot to its home configuration
 - Click Draw Workspace to see a simulation of the robot workspace
